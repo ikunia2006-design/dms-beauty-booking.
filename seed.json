@@ -1,0 +1,251 @@
+{
+  "version": 4,
+  "branches": [
+    {
+      "id": "mirian",
+      "name": "მირიან მეფის",
+      "address": "დიდი დიღომი, მირიან მეფის 84ა",
+      "short": "დიდი დიღომი"
+    },
+    {
+      "id": "goodwill",
+      "name": "გუდვილის",
+      "address": "ფარნავაზ მეფის 1, ჰიპერმარკეტი გუდვილი",
+      "short": "დიდი დიღომი"
+    },
+    {
+      "id": "nutsubidze",
+      "name": "ნუცუბიძის",
+      "address": "ნუცუბიძის პლატო IV მ/რ, 38ა",
+      "short": "საბურთალო"
+    },
+    {
+      "id": "gldani",
+      "name": "გლდანის",
+      "address": "ხიზანიშვილის 21ა",
+      "short": "გლდანი"
+    }
+  ],
+  "services": [
+    {
+      "id": "svc0",
+      "category": "nails",
+      "name": "კლასიკური მანიკური",
+      "price": 35,
+      "duration": 50,
+      "active": true
+    },
+    {
+      "id": "svc1",
+      "category": "nails",
+      "name": "გელ-ლაქი / მანიკური",
+      "price": 50,
+      "duration": 90,
+      "active": true
+    },
+    {
+      "id": "svc2",
+      "category": "nails",
+      "name": "პედიკური",
+      "price": 65,
+      "duration": 90,
+      "active": true
+    },
+    {
+      "id": "svc3",
+      "category": "hair",
+      "name": "თმის შეჭრა",
+      "price": 55,
+      "duration": 60,
+      "active": true
+    },
+    {
+      "id": "svc4",
+      "category": "hair",
+      "name": "დავარცხნა / სტაილინგი",
+      "price": 40,
+      "duration": 45,
+      "active": true
+    },
+    {
+      "id": "svc5",
+      "category": "brows",
+      "name": "წარბის კორექცია",
+      "price": 25,
+      "duration": 30,
+      "active": true
+    },
+    {
+      "id": "svc6",
+      "category": "brows",
+      "name": "წამწამის ლამინირება",
+      "price": 75,
+      "duration": 60,
+      "active": true
+    },
+    {
+      "id": "svc7",
+      "category": "makeup",
+      "name": "პროფესიონალური მაკიაჟი",
+      "price": 120,
+      "duration": 90,
+      "active": true
+    },
+    {
+      "id": "svc8",
+      "category": "face",
+      "name": "სახის მოვლის პროცედურა",
+      "price": 90,
+      "duration": 60,
+      "active": true
+    },
+    {
+      "id": "svc9",
+      "category": "laser",
+      "name": "ლაზერული ეპილაცია",
+      "price": 55,
+      "duration": 45,
+      "active": true
+    },
+    {
+      "id": "svc10",
+      "category": "other",
+      "name": "პირსინგის კონსულტაცია",
+      "price": 0,
+      "duration": 30,
+      "active": true
+    }
+  ],
+  "staff": [
+    {
+      "id": "st0n",
+      "name": "სპეციალისტი 1",
+      "branch": "mirian",
+      "skills": [
+        "nails",
+        "brows"
+      ],
+      "active": true
+    },
+    {
+      "id": "st0h",
+      "name": "სპეციალისტი 2",
+      "branch": "mirian",
+      "skills": [
+        "hair",
+        "makeup"
+      ],
+      "active": true
+    },
+    {
+      "id": "st0c",
+      "name": "სპეციალისტი 3",
+      "branch": "mirian",
+      "skills": [
+        "face",
+        "laser",
+        "other"
+      ],
+      "active": true
+    },
+    {
+      "id": "st1n",
+      "name": "სპეციალისტი 4",
+      "branch": "goodwill",
+      "skills": [
+        "nails",
+        "brows"
+      ],
+      "active": true
+    },
+    {
+      "id": "st1h",
+      "name": "სპეციალისტი 5",
+      "branch": "goodwill",
+      "skills": [
+        "hair",
+        "makeup"
+      ],
+      "active": true
+    },
+    {
+      "id": "st1c",
+      "name": "სპეციალისტი 6",
+      "branch": "goodwill",
+      "skills": [
+        "face",
+        "laser",
+        "other"
+      ],
+      "active": true
+    },
+    {
+      "id": "st2n",
+      "name": "სპეციალისტი 7",
+      "branch": "nutsubidze",
+      "skills": [
+        "nails",
+        "brows"
+      ],
+      "active": true
+    },
+    {
+      "id": "st2h",
+      "name": "სპეციალისტი 8",
+      "branch": "nutsubidze",
+      "skills": [
+        "hair",
+        "makeup"
+      ],
+      "active": true
+    },
+    {
+      "id": "st2c",
+      "name": "სპეციალისტი 9",
+      "branch": "nutsubidze",
+      "skills": [
+        "face",
+        "laser",
+        "other"
+      ],
+      "active": true
+    },
+    {
+      "id": "st3n",
+      "name": "სპეციალისტი 10",
+      "branch": "gldani",
+      "skills": [
+        "nails",
+        "brows"
+      ],
+      "active": true
+    },
+    {
+      "id": "st3h",
+      "name": "სპეციალისტი 11",
+      "branch": "gldani",
+      "skills": [
+        "hair",
+        "makeup"
+      ],
+      "active": true
+    },
+    {
+      "id": "st3c",
+      "name": "სპეციალისტი 12",
+      "branch": "gldani",
+      "skills": [
+        "face",
+        "laser",
+        "other"
+      ],
+      "active": true
+    }
+  ],
+  "bookings": [],
+  "settings": {
+    "phone": "032 219 26 46",
+    "hoursStart": "10:00",
+    "hoursEnd": "20:00"
+  }
+}
